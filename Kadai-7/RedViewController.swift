@@ -8,12 +8,17 @@
 import UIKit
 
 class RedViewController: UIViewController {
+    @IBOutlet private weak var textField1: UITextField!
+    @IBOutlet private weak var textField2: UITextField!
+    @IBOutlet private weak var totalLabel: UILabel!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction private func calculateButtonTapped(_ sender: Any) {
+        guard let num1 = Double(textField1.text!) else { return }
+        guard let num2 = Double(textField2.text!) else { return }
+
+        let totalNum =  num1 + num2
+        totalLabel.text = String(Int(totalNum))
+        textField1.endEditing(true)
+        textField2.endEditing(true)
     }
-
-
 }
-

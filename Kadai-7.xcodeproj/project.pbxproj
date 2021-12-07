@@ -10,10 +10,11 @@
 		90F30A8F6FA1522D84CF7584 /* Pods_Kadai_7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C409CDC4D386A48DF8996BC /* Pods_Kadai_7.framework */; };
 		D89E86D1275E6894000AAAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D0275E6894000AAAF6 /* AppDelegate.swift */; };
 		D89E86D3275E6894000AAAF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D2275E6894000AAAF6 /* SceneDelegate.swift */; };
-		D89E86D5275E6894000AAAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D4275E6894000AAAF6 /* ViewController.swift */; };
+		D89E86D5275E6894000AAAF6 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D4275E6894000AAAF6 /* RedViewController.swift */; };
 		D89E86D8275E6894000AAAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89E86D6275E6894000AAAF6 /* Main.storyboard */; };
 		D89E86DA275E6899000AAAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89E86D9275E6899000AAAF6 /* Assets.xcassets */; };
 		D89E86DD275E6899000AAAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89E86DB275E6899000AAAF6 /* LaunchScreen.storyboard */; };
+		D89E86E6275E6BE2000AAAF6 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86E5275E6BE2000AAAF6 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +24,12 @@
 		D89E86CD275E6894000AAAF6 /* Kadai-7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai-7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89E86D0275E6894000AAAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89E86D2275E6894000AAAF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D89E86D4275E6894000AAAF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D89E86D4275E6894000AAAF6 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		D89E86D7275E6894000AAAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D89E86D9275E6899000AAAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89E86DC275E6899000AAAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D89E86DE275E6899000AAAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89E86E5275E6BE2000AAAF6 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,8 @@
 			children = (
 				D89E86D0275E6894000AAAF6 /* AppDelegate.swift */,
 				D89E86D2275E6894000AAAF6 /* SceneDelegate.swift */,
-				D89E86D4275E6894000AAAF6 /* ViewController.swift */,
+				D89E86D4275E6894000AAAF6 /* RedViewController.swift */,
+				D89E86E5275E6BE2000AAAF6 /* GreenViewController.swift */,
 				D89E86D6275E6894000AAAF6 /* Main.storyboard */,
 				D89E86D9275E6899000AAAF6 /* Assets.xcassets */,
 				D89E86DB275E6899000AAAF6 /* LaunchScreen.storyboard */,
@@ -206,7 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89E86D5275E6894000AAAF6 /* ViewController.swift in Sources */,
+				D89E86E6275E6BE2000AAAF6 /* GreenViewController.swift in Sources */,
+				D89E86D5275E6894000AAAF6 /* RedViewController.swift in Sources */,
 				D89E86D1275E6894000AAAF6 /* AppDelegate.swift in Sources */,
 				D89E86D3275E6894000AAAF6 /* SceneDelegate.swift in Sources */,
 			);
