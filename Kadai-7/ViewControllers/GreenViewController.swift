@@ -7,17 +7,21 @@
 import UIKit
 
 class GreenViewController: UIViewController {
-    @IBOutlet private weak var textField2: UITextField!
     @IBOutlet private weak var textField1: UITextField!
+    @IBOutlet private weak var textField2: UITextField!
     @IBOutlet private weak var totalLabel: UILabel!
 
     @IBAction private func calculateButtonTapped(_ sender: Any) {
-        guard let num1 = Double(textField1.text!) else { return }
-        guard let num2 = Double(textField2.text!) else { return }
+        guard let num1 = Int(textField1.text!) else { return }
+        guard let num2 = Int(textField2.text!) else { return }
 
-        let totalNum =  num1 - num2
-        totalLabel.text = String(Int(totalNum))
+        totalLabel.text = calculate(num1: num1, num2: num2)
         textField1.endEditing(true)
         textField2.endEditing(true)
+    }
+
+    func calculate(num1: Int, num2: Int) -> String {
+        let totalNum =  num1 - num2
+        return String(totalNum)
     }
 }
