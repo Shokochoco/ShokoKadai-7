@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90F30A8F6FA1522D84CF7584 /* Pods_Kadai_7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C409CDC4D386A48DF8996BC /* Pods_Kadai_7.framework */; };
+		D84C60E4276327F700973569 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C60E3276327F700973569 /* Calculator.swift */; };
 		D89E86D1275E6894000AAAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D0275E6894000AAAF6 /* AppDelegate.swift */; };
 		D89E86D3275E6894000AAAF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D2275E6894000AAAF6 /* SceneDelegate.swift */; };
 		D89E86D5275E6894000AAAF6 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E86D4275E6894000AAAF6 /* RedViewController.swift */; };
@@ -39,6 +40,7 @@
 		4C409CDC4D386A48DF8996BC /* Pods_Kadai_7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai_7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08B4266E96FBD89031569B9 /* Pods-Kadai-7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai-7.release.xcconfig"; path = "Target Support Files/Pods-Kadai-7/Pods-Kadai-7.release.xcconfig"; sourceTree = "<group>"; };
 		A29FD59A17F34F05EC9B98D5 /* Pods-Kadai-7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai-7.debug.xcconfig"; path = "Target Support Files/Pods-Kadai-7/Pods-Kadai-7.debug.xcconfig"; sourceTree = "<group>"; };
+		D84C60E3276327F700973569 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		D89E86CD275E6894000AAAF6 /* Kadai-7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai-7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89E86D0275E6894000AAAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89E86D2275E6894000AAAF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D84C60E5276327FC00973569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84C60E3276327F700973569 /* Calculator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D89E86C4275E6894000AAAF6 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 			children = (
 				D89E86D0275E6894000AAAF6 /* AppDelegate.swift */,
 				D89E86D2275E6894000AAAF6 /* SceneDelegate.swift */,
+				D84C60E5276327FC00973569 /* Model */,
 				D89E8703275F5CFE000AAAF6 /* ViewControllers */,
 				D89E8704275F5D16000AAAF6 /* View */,
 				D89E86D9275E6899000AAAF6 /* Assets.xcassets */,
@@ -334,6 +345,7 @@
 				D89E86E6275E6BE2000AAAF6 /* GreenViewController.swift in Sources */,
 				D89E86D5275E6894000AAAF6 /* RedViewController.swift in Sources */,
 				D89E86D1275E6894000AAAF6 /* AppDelegate.swift in Sources */,
+				D84C60E4276327F700973569 /* Calculator.swift in Sources */,
 				D89E86D3275E6894000AAAF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

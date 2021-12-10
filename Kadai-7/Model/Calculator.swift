@@ -6,3 +6,13 @@
 //
 
 import Foundation
+// テストのため、ロジック単位で切り出す
+struct Calculator {
+    func addition(value1: Int, value2: Int) -> Int {
+        value1 + value2
+    }
+
+    func subtraction(value1: Int, value2: Int) -> Int {
+        value1 - value2
+    }
+}
